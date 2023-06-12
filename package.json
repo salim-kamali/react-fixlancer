@@ -1,6 +1,7 @@
 {
   "name": "fixlancer",
   "version": "0.1.0",
+  "homepage": "https://salim-kamali.github.io/react-fixlancer",
   "private": true,
   "proxy": "http://localhost:3000",
   "dependencies": {
@@ -19,7 +20,7 @@
   },
   "scripts": {
     "predeploy": "npm rum build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
